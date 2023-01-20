@@ -1,4 +1,4 @@
-name: {CI workflow}
+name: CI workflow
 on:
   push:
     branches: ["main"]
@@ -7,4 +7,4 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: pyhton:3.9-slim
+    container: python:3.9-slim
